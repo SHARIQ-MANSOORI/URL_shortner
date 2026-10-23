@@ -20,4 +20,4 @@ async function handleCreateUrl (req,res){
     return res.json({id:shortID});
 }
 
-module.export = {handleCreateUrl}
+module.exports = {handleCreateUrl}

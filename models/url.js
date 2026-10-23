@@ -4,7 +4,7 @@ const urlSchema = new mongoose.Schema({
 
     shortId:{
         type:String,
-        requiredLtrue,
+        required:true,
         unique:true
     },
     redirectUrl:{
